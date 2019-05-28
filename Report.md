@@ -78,13 +78,13 @@ $ git status
 
 # Добавление файла в репозиторий
 
-$ git add Reportmd
+$ git add README.md
 
 # Сделать коммит с подписью
 
- "added Report.md"
+ "added README.md"
 
-$ git commit -m "added Report.md"
+$ git commit -m "added README.md"
 
 # Слияние локального репозитория с гитхаб репозиторием
 

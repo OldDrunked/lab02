@@ -70,7 +70,7 @@ $ git pull origin master
 
 # Создание нового файла
 
-$ touch README.md
+$ touch Report.md
 
 # Текущее состояние репозитория
 
@@ -82,9 +82,9 @@ $ git add README.md
 
 # Сделать коммит с подписью
 
- "added README.md"
+ "added Report.md"
 
-$ git commit -m "added README.md"
+$ git commit -m "added Report.md"
 
 # Слияние локального репозитория с гитхаб репозиторием
 
@@ -122,7 +122,7 @@ void print(const std::string& text, std::ostream& out) { out << text; } void pri
 
 $ cat > include/print.hpp <<EOF
 
-includeincludeinclude
+include
 
 void print(const std::string& text, std::ofstream& out); void print(const std::string& text, std::ostream& out = std::cout); EOF
 

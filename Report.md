@@ -78,7 +78,7 @@ $ git status
 
 # Добавление файла в репозиторий
 
-$ git add README.md
+$ git add Reportmd
 
 # Сделать коммит с подписью
 

@@ -40,7 +40,9 @@ $ mkdir ~/.config
 
 $ cat > ~/.config/hub <<EOF github.com:
 
-user: ${GITHUB_USERNAME} oauth_token: ${GITHUB_TOKEN} protocol: https EOFустановка параметров протокола гит
+user: ${GITHUB_USERNAME} oauth_token: ${GITHUB_TOKEN} protocol: https EOF
+
+установка параметров протокола гит
 
 $ git config --global hub.protocol https
 
